@@ -1,0 +1,161 @@
+@media (max-width: 960px) {
+  .header-wrap {
+    height: 50vh;
+  }
+
+  .header-container {
+    padding: 1em 1em 0 1em;
+  }
+
+  .header-container ul li a {
+    display: none;
+  }
+
+  .header-logo {
+    height: 40px;
+  }
+
+  .header-hamburger {
+    display: block;
+    padding-right: 0.5em;
+  }
+
+  .header-catchcopy {
+    font-size: 24px;
+  }
+
+
+
+
+/*--                newsここから               --*/
+.sector-header {
+  font-size: 24px;
+}
+
+.article__container {
+  max-width: 100%;
+  padding: 0 1em;
+}
+
+.article__block p {
+  display: block;
+}
+
+.article__time {
+  padding-bottom: 20px;
+}
+/*--                newsここまで               --*/
+
+
+
+/*--                caseここから               --*/
+#case {
+  padding-bottom: 6em;
+}
+
+#case__container {
+  flex-direction: column;
+}
+
+.case__container__column {
+  margin: 0 auto;
+  width: 100%;
+  padding-bottom: 53px;
+}
+
+.case__container__column img {
+  max-width: 700px;
+}
+
+#case__btn {
+  margin-top: 0;
+}
+/*--                caseここまで               --*/
+
+
+
+/*--            link-wrapperここから            --*/
+#display-flex__link {
+  flex-direction: column;
+}
+
+.link__threeImage {
+  width: 100%;
+}
+/*--            link-wrapperここまで            --*/
+
+
+
+/*--               footerここから              --*/
+#footer__nav {
+  flex-direction: column-reverse;
+  padding-bottom: 0;
+}
+
+#footer__left {
+  padding-top: 36px;
+  padding-bottom: 28px;
+}
+
+#footer__right {
+  flex-direction: column;
+}
+
+#footer__right li {
+  padding: 17px 0;
+}
+
+
+
+/*--               footerここまで              --*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

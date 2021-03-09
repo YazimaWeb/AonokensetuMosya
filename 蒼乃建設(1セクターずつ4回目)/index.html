@@ -1,0 +1,133 @@
+<!DOCTYPE html><!--DOCTYPE宣言はこれで合ってるみたいだな。問題のpタグに対応してないhref要素はDOCTYPE宣言のミスではなく、シンプルにaタグからpタグに変えた時の消し忘れだったみたいだ -->
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>index.html</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/responsive.css">
+  </head>
+  <body>
+    <div class="wrap">
+      <!-- ヘッダー -->
+      <div class="header-wrap">
+        <div class="header-container">
+          <a href="#"><img src="images/header_logo.png" alt="蒼乃建設" class="header-logo"></a>
+
+          <ul>
+            <li><a href="#">企業理念</a></li>
+            <li><a href="#">施工事例</a></li>
+            <li><a href="#">採用情報</a></li>
+            <li><a href="#">お問い合わせ</a></li>
+            <li><img src="images/hamburger.svg" class="header-hamburger" alt="ハンバーガーメニュー"></li>
+          </ul>
+        </div>
+
+        <p class="header-catchcopy">街を作る。未来を作る。</p>
+      </div>
+
+
+<!--                newsここから                -->
+      <div class="news">
+        <p class="sector-header">お知らせ</p>
+
+        <div class="article__container">
+          <div class="article">
+            <a href="#" class="article__block">
+              <p class="article__time">2020.11.17<span class="notice">お知らせ</span></p>
+              <p class="article__text">本社打合せ室が完成しました。</p>
+            </a>
+          </div>
+          <div class="article">
+            <a href="#" class="article__block">
+              <p class="article__time">2020.11.10<span class="notice">お知らせ</span></p>
+              <p class="article__text">【メディア掲載】住宅雑誌 2020年11月号</p>
+            </a>
+          </div>
+          <div class="article">
+            <a href="#" class="article__block">
+              <p class="article__time">2020.11.01<span class="notice">お知らせ</span></p>
+              <p class="article__text">ホームページが完成しました。</p>
+            </a>
+          </div>
+        </div>
+
+      </div>
+<!--                newsここまで                -->
+
+
+
+<!--                caseここから                -->
+<div id="case">
+  <p class="sector-header">施工事例</p>
+
+  <div id="case__container">
+    <div class="case__container__column">
+      <img src="images/building1.png" alt="M様邸画像">
+      <p class="case__container__column__text1">M様邸新築工事</p>
+      <p class="case__container__column__text2">埼玉県</p>
+      <a href="#"><img src="images/more.png" alt="more.png" class="more-png"></a>
+    </div>
+
+    <div class="case__container__column">
+      <img src="images/building2.png" alt="スカイビル画像">
+      <p class="case__container__column__text1">スカイビル</p>
+      <p class="case__container__column__text2">東京都</p>
+      <a href="#"><img src="images/more.png" alt="more.png" class="more-png"></a>
+    </div>
+  </div>
+
+    <a href="#" id="case__btn">加工実績一覧</a>
+
+</div>
+<!--                caseここまで                -->
+
+
+
+<!--            link-wrapperここから             -->
+<div id="link-wrapper">
+  <div id="display-flex__link">
+    <a href="#" class="link__threeImage" >
+      <img src="images/company.png" alt="企業理念ー画像">
+    </a>
+
+    <a href="#" class="link__threeImage">
+      <img src="images/recruit.png" alt="採用情報ー画像">
+    </a>
+
+    <a href="#" class="link__threeImage">
+      <img src="images/contact.png" alt="お問い合わせー画像">
+    </a>
+
+  </div>
+
+</div>
+<!--            link-wrapperここまで             -->
+
+
+
+<!--               footerここから               -->
+<footer>
+  <div id="footer__nav">
+    <ul><li><a href="#"><img src="images/footer_logo.png" alt="不フッターロゴ" id="footer__left"></a></li></ul>
+
+    <ul id="footer__right">
+      <li><a href="#">企業理念</a></li>
+      <li><a href="#">施工事例</a></li>
+      <li><a href="#">採用情報</a></li>
+      <li><a href="#">お問い合わせ</a></li>
+    </ul>
+  </div>
+
+  <p id="footer__copyright">Copyright © 2020 Aono Corporation.</p>
+
+
+</footer>
+<!--               footerここまで               -->
+
+
+
+
+    </div>
+  </body>
+</html>
